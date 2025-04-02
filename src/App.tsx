@@ -58,7 +58,7 @@ function App() {
 
   const skills = [
     {
-      title: "Frontend Development",
+      title: "Test",
       description: "Creating responsive and intuitive user interfaces",
       icon: Code2,
       color: "text-purple-400",
