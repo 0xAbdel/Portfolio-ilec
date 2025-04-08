@@ -58,26 +58,26 @@ function App() {
 
   const skills = [
     {
-      title: "Test",
-      description: "Creating responsive and intuitive user interfaces",
+      title: "Development WEB",
+      description: "Creation de sites et d'applications web modernes en suivant un cahier des charges",
       icon: Code2,
       color: "text-purple-400",
     },
     {
-      title: "Backend Development",
-      description: "Building robust and scalable server solutions",
-      icon: Database,
+      title: "Maintenance Informatique",
+      description: "Resoudre les problèmes techniques et assurer le bon fonctionnement des systèmes",
+      icon: Shield,
       color: "text-blue-400",
     },
     {
-      title: "Database Design",
-      description: "Optimizing data storage and retrieval systems",
+      title: "Base de Données",
+      description: "Gestion et optimisation des bases de données ainsi que la sécurité des données",
       icon: Database,
       color: "text-emerald-400",
     },
     {
       title: "UI/UX Design",
-      description: "Creating beautiful and functional user experiences",
+      description: "Conception d'interfaces utilisateur intuitives et attrayantes pour une expérience utilisateur optimale",
       icon: Palette,
       color: "text-rose-400",
     },
@@ -176,9 +176,9 @@ function App() {
               <div className="flex items-center gap-4">
                 <Globe2 className="w-8 h-8 text-blue-400" />
                 <div>
-                  <h3 className="text-xl font-semibold">International Projects</h3>
+                  <h3 className="text-xl font-semibold">Projets En Entreprise</h3>
                   <p className="text-gray-400">
-                    Collaborated with teams across multiple time zones, delivering solutions for clients in North America, Europe, and Asia.
+                    Participation à des projets en entreprise, travaillant sur des solutions innovantes et des défis techniques.
                   </p>
                 </div>
               </div>
@@ -187,9 +187,9 @@ function App() {
               <div className="flex items-center gap-4">
                 <Award className="w-8 h-8 text-yellow-400" />
                 <div>
-                  <h3 className="text-xl font-semibold">Recognition</h3>
+                  <h3 className="text-xl font-semibold">Formations D'Entreprise</h3>
                   <p className="text-gray-400">
-                    Recipient of multiple awards for innovative solutions and exceptional project delivery.
+                    Participation à des formations internes de sensibilisation sur les dernières technologies et la sécurité en entreprise.
                   </p>
                 </div>
               </div>
@@ -201,9 +201,9 @@ function App() {
               <div className="flex items-center gap-4">
                 <BookOpen className="w-8 h-8 text-emerald-400" />
                 <div>
-                  <h3 className="text-xl font-semibold">Continuous Learning</h3>
+                  <h3 className="text-xl font-semibold">Apprentissage</h3>
                   <p className="text-gray-400">
-                    Regularly attending tech conferences, workshops, and pursuing advanced certifications.
+                    Apprentissage continu sur le terrain ainsi qu'a travers differentes documentations et procédure internes.
                   </p>
                 </div>
               </div>
@@ -212,9 +212,9 @@ function App() {
               <div className="flex items-center gap-4">
                 <Users className="w-8 h-8 text-purple-400" />
                 <div>
-                  <h3 className="text-xl font-semibold">Mentorship</h3>
+                  <h3 className="text-xl font-semibold">Travail d'Equipe</h3>
                   <p className="text-gray-400">
-                    Actively mentoring junior developers and contributing to the tech community.
+                    Équipes de travail collaboratif, Alternant dans le même domaine d'études et passionnés par l'informatique nous permettant de partager nos connaissances.
                   </p>
                 </div>
               </div>
