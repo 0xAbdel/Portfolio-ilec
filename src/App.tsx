@@ -23,34 +23,34 @@ import {
 function App() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform with real-time inventory management, secure payments, and an intuitive admin dashboard.",
+      title: "MarbleImmobilier Immobilier",
+      description: "SiteWeb réaliser pour une Agence Immobilière, clé en main et moderne.",
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800",
-      technologies: ["Next.js", "TypeScript", "Stripe", "Prisma"],
-      category: "Full Stack",
+      technologies: ["PHP", "HTML", "css", "MySQL"],
+      category: "Web App",
       color: "text-emerald-400",
     },
     {
-      title: "AI-Powered Analytics Dashboard",
-      description: "Analytics dashboard that uses machine learning to provide insights and predictions from user data.",
+      title: "CinéGest",
+      description: "Logiciel de gestion de cinéma, permettant de gérer les films, les salles, les séances, les réservations, etc... en Javascript.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
-      technologies: ["React", "Python", "TensorFlow", "D3.js"],
-      category: "Data Science",
+      technologies: ["Java", "JavaFX", "SceneBuilder", "MySQL"],
+      category: "Desktop App",
       color: "text-blue-400",
     },
     {
-      title: "Social Media Mobile App",
-      description: "Cross-platform mobile application for connecting professionals in creative industries.",
+      title: "JavaNote",
+      description: "Application de prise de notes, permettant de créer, modifier et supprimer des notes en Java.",
       image: "https://images.unsplash.com/photo-1573152958734-1922c188fba3?w=800",
-      technologies: ["React Native", "Firebase", "Redux", "Node.js"],
-      category: "Mobile",
+      technologies: ["Java", "JavaFX", "SceneBuilder", "MySQL"],
+      category: "Desktop App",
       color: "text-purple-400",
     },
     {
-      title: "Real-time Collaboration Tool",
-      description: "Browser-based collaboration tool with real-time document editing and video conferencing.",
+      title: "Blog",
+      description: "Site de blog, permettant de créer, modifier et supprimer des articles en PHP.",
       image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
-      technologies: ["WebRTC", "Socket.io", "MongoDB", "Express"],
+      technologies: ["PHP", "HTML", "CSS", "MySQL"],
       category: "Web App",
       color: "text-rose-400",
     }
@@ -59,25 +59,25 @@ function App() {
   const skills = [
     {
       title: "Development WEB",
-      description: "Creation de sites et d'applications web modernes en suivant un cahier des charges",
+      description: "Creation de sites et d'applications web modernes en suivant un cahier des charges.",
       icon: Code2,
       color: "text-purple-400",
     },
     {
       title: "Maintenance Informatique",
-      description: "Resoudre les problèmes techniques et assurer le bon fonctionnement des systèmes",
+      description: "Resoudre les problèmes techniques et assurer le bon fonctionnement des systèmes.",
       icon: Shield,
       color: "text-blue-400",
     },
     {
       title: "Base de Données",
-      description: "Gestion et optimisation des bases de données ainsi que la sécurité des données",
+      description: "Gestion et optimisation des bases de données ainsi que la sécurité des données.",
       icon: Database,
       color: "text-emerald-400",
     },
     {
       title: "UI/UX Design",
-      description: "Conception d'interfaces utilisateur intuitives et attrayantes pour une expérience utilisateur optimale",
+      description: "Conception d'interfaces utilisateur intuitives et attrayantes pour une expérience utilisateur optimale.",
       icon: Palette,
       color: "text-rose-400",
     },
@@ -85,23 +85,23 @@ function App() {
 
   const experience = [
     {
-      company: "Tech Solutions Inc.",
-      position: "Senior Frontend Developer",
-      period: "2021 - Present",
+      company: "Baccalauréat STI2D",
+      position: "Lycée Jules Ferry - Cannes",
+      period: "2020 - 2021",
       achievements: [
-        "Led a team of 5 developers in building a modern SaaS platform",
-        "Improved application performance by 40%",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
+        "Option Inovation Technologique et Eco-Conception.",
+        "Projets de développement d'applications et de systèmes.",
+        "Obtention du diplôme.",
       ],
     },
     {
-      company: "Digital Innovations Ltd.",
-      position: "Full Stack Developer",
-      period: "2019 - 2021",
+      company: "EPITECH",
+      position: "NICE",
+      period: "2021 - 2023",
       achievements: [
-        "Developed and maintained multiple client projects",
-        "Introduced TypeScript reducing bugs by 30%",
-        "Mentored junior developers",
+        "Formation en informatique axée sur la pédagogie par projets.",
+        "Développement de compétences en programmation, gestion de projet et travail d'équipe.",
+        "Apprentissage de languages de bas niveau, C, C+++",
       ],
     },
   ];
@@ -225,7 +225,7 @@ function App() {
 
       {/* Professional Experience */}
       <Section id="experience">
-        <h2 className="text-3xl font-bold mb-8">Professional Experience</h2>
+        <h2 className="text-3xl font-bold mb-8">Expérience Professionel</h2>
         <div className="space-y-6">
           {experience.map((job, index) => (
             <Card key={index} className="relative overflow-hidden">
@@ -257,7 +257,7 @@ function App() {
 
       {/* Projects Section */}
       <Section id="projects">
-        <h2 className="text-3xl font-bold mb-8">Featured Projects</h2>
+        <h2 className="text-3xl font-bold mb-8">Projets réalisés</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden group">
@@ -291,14 +291,14 @@ function App() {
                 </div>
                 <div className="flex gap-4 pt-4">
                   <a
-                    href="#"
+                    href="https://github.com/0xAbdel/Broc-liande-Immobilier"
                     className="flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors"
                   >
                     <Globe className="w-5 h-5" />
                     <span>Live Demo</span>
                   </a>
                   <a
-                    href="#"
+                    href="https://github.com/0xAbdel/Broc-liande-Immobilier"
                     className="flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors"
                   >
                     <Github className="w-5 h-5" />
