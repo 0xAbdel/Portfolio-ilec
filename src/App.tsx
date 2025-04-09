@@ -159,9 +159,10 @@ function App() {
               J'ai ensuite intégré un BTS SIO afin de découvrir d'autres facettes de l'informatique et me faire une expérience professionnel <br /> a travers l'alternance en entreprise.
             </p>
           </Card>
-          
+
       {/* Professional Experience */}
       <Section id="experience">
+        <h2 className="text-3xl font-bold mb-8">Cursus Scolaire</h2>
         <div className="space-y-6">
           {experience.map((job, index) => (
             <Card key={index} className="relative overflow-hidden">
@@ -191,7 +192,7 @@ function App() {
         </div>
       </Section>
 
-          <h2 className="text-3xl font-bold mb-8">Mes compétences</h2>
+          <h2 className="text-3xl font-bold mb-8">Mes compétences & Expériences</h2>
           <p className="text-gray-300 mb-8"></p>
           <div className="grid md:grid-cols-4 gap-6">
             {skills.map((skill, index) => (
