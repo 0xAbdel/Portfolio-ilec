@@ -59,7 +59,7 @@ function App() {
 
   const skills = [
     {
-      title: "Development WEB",
+      title: "Development",
       description: "Creation de sites et d'applications web modernes en suivant un cahier des charges.",
       icon: Code2,
       color: "text-purple-400",
