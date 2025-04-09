@@ -23,7 +23,7 @@ import {
 function App() {
   const projects = [
     {
-      title: "MarbleImmobilier Immobilier",
+      title: "Marble Immobilier",
       description: "SiteWeb réaliser pour une Agence Immobilière, clé en main et moderne.",
       image: "https://i.postimg.cc/zB9ZgjvV/Chat-GPT-Image-9-avr-2025-02-01-58.png",
       technologies: ["PHP", "HTML", "css", "MySQL"],
@@ -313,45 +313,39 @@ function App() {
 
       {/* Tech Watch Section */}
       <Section id="tech-watch">
-        <h2 className="text-3xl font-bold mb-8">Technology Watch</h2>
+        <h2 className="text-3xl font-bold mb-8">Veille Technologique</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <Card>
             <Brain className="w-8 h-8 text-blue-400 mb-4" />
-            <h3 className="text-xl font-semibold mb-4">AI Watch</h3>
+            <h3 
+              className="text-xl font-semibold mb-4"
+              onClick={() => window.open('https://feedly.com/i/board/content/user/d833c1f0-c8ca-425c-855f-76b2222d5096/tag/02d4e0b0-a91e-4908-9f43-0efec3533b05', '_blank')}
+              style={{ cursor: 'pointer' }}
+            >
+              Intelligence Artificielle
+            </h3>
             <p className="text-gray-300">
-              Staying current with the latest developments in AI, including machine learning frameworks,
-              natural language processing, and AI-powered development tools.
+              Suivi des avancées en IA, apprentissage automatique et leurs applications dans le développement logiciel.
+              Apprendre les dernières tendances et outils pour intégrer l'IA dans mes projets.
+              Connaitre les enjeux éthiques et de sécurité liés à l'IA.
             </p>
           </Card>
           <Card>
             <Shield className="w-8 h-8 text-emerald-400 mb-4" />
-            <h3 className="text-xl font-semibold mb-4">Security Watch</h3>
+            <h3 
+              className="text-xl font-semibold mb-4"
+              onClick={() => window.open('https://feedly.com/i/board/content/user/d833c1f0-c8ca-425c-855f-76b2222d5096/tag/98bd56d9-cc48-46ff-b550-a27ff684d993', '_blank')}
+              style={{ cursor: 'pointer' }}
+            >
+              CyberSécurité
+            </h3>
             <p className="text-gray-300">
-              Monitoring cybersecurity trends, best practices, and emerging threats to ensure
-              robust and secure application development.
+              Suivi des menaces de sécurité, des vulnérabilités et des meilleures pratiques pour protéger les systèmes.
+              Apprendre les techniques de sécurité réseau et de cryptographie.
+              Comprendre l'importance de la sécurité dans le développement logiciel et dans l'informatique en général.
             </p>
           </Card>
         </div>
-      </Section>
-
-      {/* Contact Section */}
-      <Section id="contact" className="pb-32">
-        <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
-        <Card>
-          <div className="flex flex-col items-center text-center">
-            <Mail className="w-12 h-12 text-rose-400 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Let's Connect</h3>
-            <p className="text-gray-300 mb-4">
-              I'm always open to new opportunities and interesting projects.
-            </p>
-            <a
-              href="mailto:contact@example.com"
-              className="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-full transition-colors"
-            >
-              Send Message
-            </a>
-          </div>
-        </Card>
       </Section>
     </div>
   );
