@@ -156,11 +156,10 @@ function App() {
             <p className="text-gray-300 leading-relaxed text-lg">
               Ayant passé un Baccalauréa STI2D, la voie de l'informatique était une evidence pour moi avant même mon entrée au lycée.<br />
               Après l'obtention de mon BAC j'ai intégré Epitech, une école d'informatique réputé pour sa pédagogie par projets pendant 3 ans.<br />
-              J'ai ensuite intégré un BTS SIO afin de découvrir d'autres facettes de l'informatique et me faire une expérience professionnel <br /> a travers l'alternance en entreprise.<br />
-
+              J'ai ensuite intégré un BTS SIO afin de découvrir d'autres facettes de l'informatique et me faire une expérience professionnel <br /> a travers l'alternance en entreprise.
             </p>
           </Card>
-
+          
       {/* Professional Experience */}
       <Section id="experience">
         <div className="space-y-6">
