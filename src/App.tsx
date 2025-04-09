@@ -18,6 +18,7 @@ import {
   BookOpen,
   Users,
   Briefcase,
+  Cloud,
 } from 'lucide-react';
 
 function App() {
@@ -67,18 +68,18 @@ function App() {
       title: "Maintenance Informatique",
       description: "Resoudre les problèmes techniques et assurer le bon fonctionnement des systèmes.",
       icon: Shield,
-      color: "text-blue-400",
-    },
-    {
-      title: "Base de Données",
-      description: "Gestion et optimisation des bases de données ainsi que la sécurité des données.",
-      icon: Database,
       color: "text-emerald-400",
     },
     {
-      title: "UI/UX Design",
-      description: "Conception d'interfaces utilisateur intuitives et attrayantes pour une expérience utilisateur optimale.",
-      icon: Palette,
+      title: "Infrastructure Cloud",
+      description: "Gestion des postes de travail et utilisateur via les environnements cloud Azure et Exchange.",
+      icon: Cloud,
+      color: "text-blue-400",
+    },
+    {
+      title: "Gestion de Base de Données",
+      description: "Création, gestion et sécurisation de bases de données relationnelles avec MySQL.",
+      icon: Database,
       color: "text-rose-400",
     },
   ];
