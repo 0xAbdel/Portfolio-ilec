@@ -161,6 +161,39 @@ function App() {
             </p>
           </Card>
 
+      {/* Professional Experience */}
+      <Section id="experience">
+        <div className="space-y-6">
+          {experience.map((job, index) => (
+            <Card key={index} className="relative overflow-hidden">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-lg bg-purple-500/10">
+                  <Briefcase className="w-6 h-6 text-purple-400" />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="text-xl font-semibold">{job.company}</h3>
+                  <div className="flex items-center gap-2">
+                    <span className="text-purple-400">{job.position}</span>
+                    <span className="text-gray-500">•</span>
+                    <span className="text-gray-400">{job.period}</span>
+                  </div>
+                  <ul className="space-y-2 mt-4">
+                    {job.achievements.map((achievement, i) => (
+                      <li key={i} className="text-gray-300 flex items-center gap-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-purple-400" />
+                        {achievement}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </Card>
+          ))}
+        </div>
+      </Section>
+
+          <h2 className="text-3xl font-bold mb-8">Mes compétences</h2>
+          <p className="text-gray-300 mb-8"></p>
           <div className="grid md:grid-cols-4 gap-6">
             {skills.map((skill, index) => (
               <Card key={index} className="text-center">
@@ -223,37 +256,7 @@ function App() {
         </div>
       </Section>
 
-      {/* Professional Experience */}
-      <Section id="experience">
-        <h2 className="text-3xl font-bold mb-8">Expérience Professionel</h2>
-        <div className="space-y-6">
-          {experience.map((job, index) => (
-            <Card key={index} className="relative overflow-hidden">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-lg bg-purple-500/10">
-                  <Briefcase className="w-6 h-6 text-purple-400" />
-                </div>
-                <div className="space-y-2">
-                  <h3 className="text-xl font-semibold">{job.company}</h3>
-                  <div className="flex items-center gap-2">
-                    <span className="text-purple-400">{job.position}</span>
-                    <span className="text-gray-500">•</span>
-                    <span className="text-gray-400">{job.period}</span>
-                  </div>
-                  <ul className="space-y-2 mt-4">
-                    {job.achievements.map((achievement, i) => (
-                      <li key={i} className="text-gray-300 flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 rounded-full bg-purple-400" />
-                        {achievement}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </Card>
-          ))}
-        </div>
-      </Section>
+      
 
       {/* Projects Section */}
       <Section id="projects">
