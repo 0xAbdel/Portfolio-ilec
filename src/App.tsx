@@ -25,7 +25,7 @@ function App() {
     {
       title: "MarbleImmobilier Immobilier",
       description: "SiteWeb réaliser pour une Agence Immobilière, clé en main et moderne.",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800",
+      image: "https://i.postimg.cc/zB9ZgjvV/Chat-GPT-Image-9-avr-2025-02-01-58.png",
       technologies: ["PHP", "HTML", "css", "MySQL"],
       category: "Web App",
       color: "text-emerald-400",
@@ -33,7 +33,7 @@ function App() {
     {
       title: "CinéGest",
       description: "Logiciel de gestion de cinéma, permettant de gérer les films, les salles, les séances, les réservations, etc... en Javascript.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+      image: "https://i.postimg.cc/PxMYL62M/Cinegest-banner-800w.png",
       technologies: ["Java", "JavaFX", "SceneBuilder", "MySQL"],
       category: "Desktop App",
       color: "text-blue-400",
@@ -41,18 +41,18 @@ function App() {
     {
       title: "JavaNote",
       description: "Application de prise de notes, permettant de créer, modifier et supprimer des notes en Java.",
-      image: "https://images.unsplash.com/photo-1573152958734-1922c188fba3?w=800",
+      image: "https://i.postimg.cc/DZCmkRxR/Chat-GPT-Image-9-avr-2025-02-08-00.png",
       technologies: ["Java", "JavaFX", "SceneBuilder", "MySQL"],
       category: "Desktop App",
-      color: "text-purple-400",
+      color: "text-blue-400",
     },
     {
       title: "Blog",
       description: "Site de blog, permettant de créer, modifier et supprimer des articles en PHP.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+      image: "https://i.postimg.cc/8c2pTGMX/Chat-GPT-Image-9-avr-2025-02-10-09.png",
       technologies: ["PHP", "HTML", "CSS", "MySQL"],
       category: "Web App",
-      color: "text-rose-400",
+      color: "text-emerald-400",
     }
   ];
 
